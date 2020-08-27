@@ -42,3 +42,7 @@ A finished example:
 ### Updating Meetings
 
 To update an existing meeting, please feel free to submit a PR to any of the entries. Including a reference to where/why you're updating it would be ideal so the maintainers of the repo can merge swiftly without needing to ask for additional context.
+
+## Credit
+
+This tooling was 100% inspired by David Guttman ([@davidguttman](https://github.com/davidguttman)) and the tool he built that does this for the [Node.js Mentorship Initiative](https://github.com/davidguttman/mentorship/blob/gh-pages/meeting/index.html).
