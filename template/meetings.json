@@ -6,9 +6,39 @@
       "link": "https://zoom.us/j/523381536"
     },
     {
+      "name": "Diagnostics",
+      "filename": "diagnostics",
+      "link": "https://zoom.us/j/466707925"
+    },
+    {
+      "name": "Modules",
+      "filename": "modules",
+      "link": "https://zoom.us/j/656987750"
+    },
+    {
+      "name": "Outreach",
+      "filename": "outreach",
+      "link": "https://zoom.us/j/526318636"
+    },
+    {
+      "name": "Release",
+      "filename": "release",
+      "link": "https://zoom.us/j/157618869"
+    },
+    {
       "name": "TSC",
       "filename": "tsc",
       "link": "https://zoom.us/j/611357642"
+    },
+    {
+      "name": "Website Redesign",
+      "filename": "website-redesign",
+      "link": "https://zoom.us/j/98965291656"
+    },
+    {
+      "name": "Web Server Frameworks",
+      "filename": "web-server",
+      "link": "https://zoom.us/j/94317794411"
     }
   ]
 }
