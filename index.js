@@ -18,7 +18,7 @@ async function build () {
     const link = entry.link
 
     const returnedTemplate = await replace(template, variables, { name: name, link: link })
-    fs.writeFile(`./dist/${filename}.html`, returnedTemplate)
+    fs.writeFile(`./docs/${filename}.html`, returnedTemplate)
   })
 }
 

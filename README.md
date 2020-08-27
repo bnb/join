@@ -13,7 +13,7 @@ This project works like this:
 - The builder (`index.js`) should be run, either directly with `node index.js` or with `npm run build`.
 - Once run, the builder will spit out pages based off of the `./template/meetings.json` file and the `./template/template.html` file, consistently replacing the necessary information for each entry.
 - These pages can/should be deployed to a place where they can be accessed online.
-  - GitHub Pages is the simplest solution, since the repository settings for Pages can be pointed to the `./dist` directory and a nice and clean URL will be provided or can easily be `CNAME`ed.
+  - GitHub Pages is the simplest solution, since the repository settings for Pages can be pointed to the `./docs` directory and a nice and clean URL will be provided or can easily be `CNAME`ed.
 
 ## Adding and Updating Meetings
 
