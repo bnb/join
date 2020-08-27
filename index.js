@@ -17,6 +17,7 @@ async function build () {
     const filename = entry.filename
     const link = entry.link
 
+    console.log(`\nStarting to work on ${name}...`)
     const returnedTemplate = await replace(template, variables, { name: name, link: link })
     fs.writeFile(`./docs/${filename}.html`, returnedTemplate)
   })
