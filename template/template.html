@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Meeting Link for Node.js {{MEETING:NAME}} Meeting--></title>
+  </head>
+  <body>
+    <h1>Meeting link for {{MEETING:NAME}}</h1>
+    <p>This page should redirect you to <a href='{{MEETING:LINK}}'>{{MEETING:LINK}}</a>. It does require JavaScript to be enabled. Feel free to click that link if you've not already been redirected.</p>
+    <script>
+      window.location = '{{MEETING:LINK}}'
+    </script>
+  </body>
+</html>
