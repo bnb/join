@@ -25,7 +25,7 @@ async function build () {
   })
 
   console.log('\nStarting index.html build...\n')
-  let li = []
+  const li = []
   meetings.forEach(entry => {
     console.log(`Working on ${entry.name}`)
     li.push(`<li><a href='${entry.link}'>${entry.name}</a></li>`)
