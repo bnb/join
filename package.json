@@ -1,10 +1,12 @@
 {
-  "name": "meetings",
+  "name": "join",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "prebuild": "rm -rf ./docs && mkdir docs",
+    "build": "node index.js",
+    "lint": "standard"
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im>",
