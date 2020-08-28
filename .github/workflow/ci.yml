@@ -1,0 +1,21 @@
+name: Node.js Cross-platform CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 14.x on ubuntu-latest
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - name: npm install
+      run: npm install
+      shell: bash
+    - name: npm run lint
+      run: npm run lint
+      shell: bash
+      env:
+        CI: true
