@@ -1,6 +1,10 @@
-name: Node.js Cross-platform CI
+name: CI (ubutnu-latest / Node.js v14)
 
-on: [push]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
